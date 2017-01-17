@@ -1,0 +1,21 @@
+
+.vistabasica {
+	position: relative;
+	width: 500px !important;
+	height: 350px !important;
+	cursor: pointer;
+	
+}
+.vistaminiatura {
+	position: relative;
+	width: 100px !important;
+	height: 100px !important;
+	cursor: pointer;
+}
+.superior{
+	z-index: 99;
+}
+.imgpos{
+	position: absolute;
+}
+

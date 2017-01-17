@@ -1,0 +1,5 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2016-04-15 21:37:37 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select usuusuario, nombres, apellidos, email, num_doc, usutype from usuarios WHE' at line 1 - Invalid query: select select usuusuario, nombres, apellidos, email, num_doc, usutype from usuarios WHERE TIMESTAMPDIFF(MINUTE,ping,now()) < 15
+ERROR - 2016-04-15 21:38:08 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select usuusuario, nombres, apellidos, email, num_doc, usutype from usuarios WHE' at line 1 - Invalid query: select select usuusuario, nombres, apellidos, email, num_doc, usutype from usuarios WHERE TIMESTAMPDIFF(MINUTE,ping,now()) < 15
+ERROR - 2016-04-15 21:39:23 --> Query error: Unknown column 'usutype' in 'field list' - Invalid query: select  usuusuario, nombres, apellidos, email, num_doc, usutype from usuarios WHERE TIMESTAMPDIFF(MINUTE,ping,now()) < 15
